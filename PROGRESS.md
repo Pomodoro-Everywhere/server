@@ -1,0 +1,56 @@
+- [ ] Some REST API handler (Django?)
+  - [ ] Auth???
+  - [ ] Create new pomodoro
+  - [ ] Update pomodoro state
+  - [ ] End pomodoro
+  - [ ] Reject pomodoro
+  - [ ] Get current state of user
+  - [ ] Remove pomodoro to "Bin"
+  - [ ] Remove pomodoro from "Bin"
+  - [ ] Get report for day
+  - [ ] Get report for period (grouped by day)
+- [ ] State db (SQLite for beginning?)
+  - [ ] Users auth keys
+    - [ ] Username
+    - [ ] Key 
+    - [ ] User id
+  - [ ] States of current pomodoros
+    - [ ] Pomodoro id
+    - [ ] Last status
+    - [ ] Status update time 
+  - [ ] History of previous pomodoros
+    - [ ] User id
+    - [ ] Pomodoro id
+    - [ ] Date of creation
+    - [ ] Date of completion|rejection
+    - [ ] End status (completed|rejected)
+    - [ ] Period (date without time) (to split time if pomodoro started in one day and completed in another)
+  - [ ] Cache of reports for previous days
+    - [ ] User id
+    - [ ] Period (date without time)
+    - [ ] Task
+    - [ ] Total time
+  - [ ] Users pomodoros
+    - [ ] User id
+    - [ ] Pomodoro id
+  - [ ] "Bin" for deleted pomodoros
+    - [ ] User id
+    - [ ] Pomodoro id
+  - [ ] User settings
+    - [ ] User id
+    - [ ] Setting name
+    - [ ] Setting value
+- [ ] inner API handlers
+  - [ ] Auth???
+  - [ ] Create new pomodoro
+  - [ ] Update pomodoro state
+  - [ ] End pomodoro
+  - [ ] Reject pomodoro
+  - [ ] Get current state of user
+  - [ ] Remove pomodoro to "Bin"
+  - [ ] Remove pomodoro from "Bin"
+  - [ ] Get report for day
+  - [ ] Get report for period (grouped by day)
+- [ ] Recurring tasks (needed to be somehow connected to users timezone)
+  - [ ] Cleanup of "Bin"
+  - [ ] Push notifications???
