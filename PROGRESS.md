@@ -36,10 +36,17 @@
   - [ ] "Bin" for deleted pomodoros
     - [ ] User id
     - [ ] Pomodoro id
-  - [ ] User settings
+  - [ ] Users settings
     - [ ] User id
     - [ ] Setting name
     - [ ] Setting value
+  - [ ] Users tasks
+    - [ ] User id
+    - [ ] Task id
+    - [ ] Name
+  - [ ] Tasks pomodoros
+    - [ ] Task id
+    - [ ] Pomodoro id
 - [ ] inner API handlers
   - [ ] Auth???
   - [ ] Create new pomodoro
