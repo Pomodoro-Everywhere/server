@@ -4,7 +4,17 @@ import manage
 
 
 def check_secret():
-    secrets_path = "pomodoro_everywhere_server/pomodoro_everywhere_server/local_settings.py"
+    local_settings_paths = ["pomodoro_everywhere_server/pomodoro_everywhere_server", "pomodoro_everywhere_server"]
+
+    secrets_path = None
+    for path in local_settings_paths:
+        if os.path.isdir(path):
+            secrets_path = path + os.sep + "local_settings.py"
+            break
+
+    if secrets_path == None:
+        print("Are you in right directory?")
+        exit(1)
     
     if os.path.isfile(secrets_path):
         return True
