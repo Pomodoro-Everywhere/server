@@ -1,6 +1,7 @@
 - [ ] Some REST API handler (Django?)
   - [ ] Auth???
-  - [ ] Create new pomodoro
+  - [?] Create new pomodoro
+    - [ ] Actually call something
   - [ ] Update pomodoro state
   - [ ] End pomodoro
   - [ ] Reject pomodoro
@@ -50,6 +51,9 @@
 - [ ] inner API handlers
   - [ ] Auth???
   - [ ] Create new pomodoro
+    - [ ] Connect to db
+    - [ ] Create new entry with new pomodoro
+    - [ ] There SHOULD be only one running pomodoro
   - [ ] Update pomodoro state
   - [ ] End pomodoro
   - [ ] Reject pomodoro
